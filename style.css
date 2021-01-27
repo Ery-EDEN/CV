@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: rgb(44, 47, 78);
+}
+header {
+	width: 100%;
+	height: 20vh;
+	
+	background-color: white;
+	border-bottom: #F03B58 solid 2px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left:50px;
+
+
+	/* rgb(44, 47, 78) */
+}
+#join {
+	width: 100%;
+	height: 80vh;
+	background-image: url(header.jpg);
+	background-size: cover;
+	background-position: -20%;
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+	border-bottom: #F03B58 solid 2px;
+
+}
+.red {
+	color: #F03B58;
+}
+.blue {
+	color: rgb(44, 47, 78);
+}
+.white {
+	color:white;
+}
+ul {
+	list-style: none;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+li {
+	border-bottom: #F03B58 solid 2px;
+	transition: 0.6s;
+}
+li:hover {
+	border-bottom: solid transparent 2px;
+	transform: scale(1.1);
+}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 48px;
+}
+
+#first {
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+
+	border-bottom: #F03B58 solid 2px;
+
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+.pave {
+	width: 40%;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+}
+.change {
+	animation: opacityChange ease-in-out 1s;
+}
+#maTete {
+	border:#F03B58 solid 3px;
+}
+.large {
+	width: 80%;
+}
+@keyframes opacityChange {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+#second {
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+}
+.card {
+	width: 20%;
+	height: 60vh;
+	background-color: #F03B58;
+	text-align:center;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	transition: 0.6s;
+}
+.card:hover {
+	transform: scale(1.1);
+}
+ 
+.card:nth-child(odd) {
+	background-color: rgb(44, 47, 78);
+}
+h3 {
+	font-size: 38px;
+}
+.fas {
+	font-size: 100px;
+}
