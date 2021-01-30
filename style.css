@@ -3,9 +3,11 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 body {
 	background-color: rgb(44, 47, 78);
+
 }
 header {
 	width: 100%;
@@ -50,6 +52,9 @@ ul:not(.non) {
 	width: 70%;
 	display: flex;
 	justify-content: space-around;
+}
+a {
+	text-decoration: none;
 }
 li:not(.non) {
 	border-bottom: #F03B58 solid 2px;
@@ -207,6 +212,7 @@ h3:not(.o) {
 p {
 	font-size: 30px;
 }
+
 
 
 
