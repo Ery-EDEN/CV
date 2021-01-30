@@ -203,11 +203,13 @@ h3:not(.o) {
 	border-top: solid #F03B58 2px;
 
 	display:flex;
-
 	justify-content: center;
 	flex-direction: column;
 	padding-left: 50px;
 	font-size: 24px;
+}
+p {
+	margin-top: 40px;
 }
 
 
